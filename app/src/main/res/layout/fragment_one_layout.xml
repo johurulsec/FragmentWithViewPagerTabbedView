@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="android lime"
+        android:textColor="#24e113"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/my_site_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go to my site"
+        android:layout_margin="20sp"
+        android:padding="15dp"
+        android:background="#00aee5"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="19sp"/>
+
+</LinearLayout>
